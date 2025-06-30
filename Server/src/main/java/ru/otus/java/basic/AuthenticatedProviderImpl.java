@@ -39,17 +39,6 @@ public class AuthenticatedProviderImpl implements AuthenticatedProvider {
         public int getId() {
             return id;
         }
-
-        @Override
-        public String toString() {
-            return "User{" +
-                    "id=" + id +
-                    ", login='" + login + '\'' +
-                    ", password='" + password + '\'' +
-                    ", username='" + username + '\'' +
-                    ", role=" + role +
-                    '}';
-        }
     }
 
     private List<User> users;
